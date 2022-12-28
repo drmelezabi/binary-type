@@ -17,7 +17,8 @@ module.exports = {
   audio: {
     ogg: [ '4F 67 67 53 00 02 00 00 00 00 00 00 00 00', '4F 67 67 53' ],
     mp3: [ '49 44 33', 'FF F2', 'FF F3' , 'FF FB' ],
-    aac: [ 'FF F1' , 'FF F1', 'FF F9 5C 80' ]
+    aac: [ 'FF F1' , 'FF F9' ],
+    m4a: [ '66 74 79 70 4D 34 41 20' ]
   },
 
   video: {
