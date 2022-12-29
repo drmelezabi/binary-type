@@ -10,15 +10,14 @@ module.exports = {
   image: {
     bmp: [ '42 4D' ],
     gif: [ '47 49 46 38 39 61', '00 3B' ], // gif89a at the moment
-    jpeg: ['FF D8 FF', 'FF D9' ],
+    jpeg: ['ff d8 ff' ],
     png: [ '89 50 4E 47 0D 0A 1A 0A', '49 45 4E 44 AE 42 60 82' ]
   },
 
   audio: {
-    ogg: [ '4F 67 67 53 00 02 00 00 00 00 00 00 00 00', '4F 67 67 53' ],
-    mp3: [ '49 44 33', 'FF F2', 'FF F3' , 'FF FB' ],
-    aac: [ 'FF F1' , 'FF F9' ],
-    m4a: [ '66 74 79 70 4D 34 41 20' ]
+    ogg: [ '4F 67 67 53 00 02 00 00 00 00 00 00 00 00' ],
+    mp3: [ '49 44 33' ],
+    aac: [ 'ff f1' ]
   },
 
   video: {
